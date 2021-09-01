@@ -7,12 +7,21 @@
 /************************************************************/
 /* TAG */
 /************************************************************/
+body{
+    background-color: rgb(236, 236, 236);
+}
+
 h1{
     display: inline-block;
     vertical-align: middle;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-  
+
+main{
+    width: 80%;
+    margin: auto;
+    margin-top: 30PX;
+}
 /************************************************************/
 /* ID */
 /************************************************************/
@@ -23,7 +32,37 @@ h1{
 /************************************************************/
 /* CLASS */
 /************************************************************/
-.container{   
+.container{
+    background-color: white;
+}
+
+.line-height-header{   
     display: block;
     line-height: 70px;
+}
+
+.sub-container{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 30px;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.button{
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    padding: 8px;
+}
+
+.selcted-button{
+    color: white;
+    background-color: lightskyblue;
+}
+
+.unselcted-button{
+    color: rgb(194, 194, 194);
+    border: 1px solid rgb(194, 194, 194);
 }

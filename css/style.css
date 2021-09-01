@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+/************************************************************/
+/* TAG */
+/************************************************************/
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+  
+/************************************************************/
+/* ID */
+/************************************************************/
+#main-logo{
+    vertical-align: middle;
+    margin-left: 20px;
+} 
+/************************************************************/
+/* CLASS */
+/************************************************************/
+.container{   
+    display: block;
+    line-height: 70px;
+}

@@ -22,6 +22,7 @@ main{
     margin: auto;
     margin-top: 30PX;
 }
+
 /************************************************************/
 /* ID */
 /************************************************************/
@@ -45,6 +46,10 @@ main{
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     padding: 30px;
+}
+
+.container-button{
+    padding-bottom: 15px;
     border-bottom: 1px solid rgb(236, 236, 236);
 }
 
@@ -55,6 +60,7 @@ main{
     height: fit-content;
     width: fit-content;
     padding: 8px;
+    
 }
 
 .selcted-button{
@@ -65,4 +71,8 @@ main{
 .unselcted-button{
     color: rgb(194, 194, 194);
     border: 1px solid rgb(194, 194, 194);
+}
+
+.text-margin-top{
+    margin-top: 15px;
 }

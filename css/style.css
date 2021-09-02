@@ -128,6 +128,6 @@ li{
     list-style-image: url(../img/check.png);
 }
 
-.checked-item{
+.unchecked-item{
     list-style-image: url(../img/cross.png);
 }
